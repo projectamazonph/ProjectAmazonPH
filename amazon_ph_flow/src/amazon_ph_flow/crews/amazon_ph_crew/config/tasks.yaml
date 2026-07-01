@@ -1,0 +1,233 @@
+# ═══════════════════════════════════════════════════════════
+# AMAZON.PH CREW — Task Definitions
+# 9 tasks across 4 sequential phases
+# ═══════════════════════════════════════════════════════════
+
+# ── Phase 1: Foundation Research ────────────────────────────────────────
+
+market_opportunities:
+  description: >
+    Conduct thorough research about Amazon Philippines market opportunities.
+    Use web search to find recent, credible information about the Philippine
+    e-commerce landscape. Identify viable product categories, target
+    demographics, growth trends, underserved niches, and market entry
+    recommendations specific to the Philippines (considering logistics,
+    payment preferences, and regulatory environment).
+
+    Focus on:
+    - Current state of Philippine e-commerce (2025-2026)
+    - Amazon's current presence (if any) in Southeast Asia
+    - Viable product categories for PH market entry
+    - Target demographic segments
+    - Growth trends and projections
+    - Regulatory considerations for foreign e-commerce
+    - Infrastructure challenges (logistics, payments, internet penetration)
+  expected_output: >
+    A comprehensive market opportunity report covering viable product
+    categories, target demographics, growth trends, underserved niches,
+    and market entry recommendations. 800-1200 words in clean markdown
+    format with clear section headings.
+  agent: researcher
+  output_file: output/01-market-opportunities.md
+
+competitive_landscape:
+  description: >
+    Research and document Amazon PH's competitive environment. Analyze key
+    competitors operating in the Philippine e-commerce space (Shopee,
+    Lazada, Zalora, TikTok Shop, etc.), their market positioning, pricing
+    strategies, delivery capabilities, payment integrations, and customer
+    satisfaction levels.
+
+    Focus on:
+    - Top 5 e-commerce platforms operating in the Philippines
+    - Their market share and positioning
+    - Pricing and fee structures for sellers
+    - Delivery and logistics capabilities
+    - Payment methods supported
+    - Customer satisfaction and reviews
+    - Competitive advantages and gaps for Amazon to exploit
+  expected_output: >
+    A detailed competitive landscape analysis with key competitors, market
+    positioning, differentiation insights, and strategic recommendations.
+    Include a comparison table. 800-1200 words in clean markdown format.
+  agent: analyst
+  output_file: output/02-competitive-landscape.md
+
+consumer_behavior:
+  description: >
+    Investigate Amazon PH consumer preferences and purchasing patterns.
+    Analyze Filipino online shopping behavior, including preferred categories,
+    price sensitivity, trust factors, payment methods, delivery expectations,
+    and the role of social media in purchase decisions.
+
+    Focus on:
+    - Filipino consumer online shopping habits and preferences
+    - Preferred payment methods (GCash, Maya, COD, credit cards)
+    - Trust signals and factors that influence purchase decisions
+    - Mobile shopping behavior and app preferences
+    - Social media influence on purchasing (Facebook, TikTok, Instagram)
+    - Price sensitivity and willingness to pay
+    - Returns and customer service expectations
+    - Cultural factors affecting e-commerce adoption (Bayanihan, hiya, utang na loob)
+  expected_output: >
+    A comprehensive consumer behavior profile with demographic insights,
+    buying triggers, pain points, and behavioral patterns specific to
+    Filipino online shoppers. 800-1200 words in clean markdown format.
+  agent: consumer_researcher
+  output_file: output/03-consumer-behavior.md
+
+# ── Phase 2: Strategic Development ──────────────────────────────────────
+
+strategy_development:
+  description: >
+    Create a comprehensive Amazon Philippines market entry and growth
+    strategy. Synthesize findings from market opportunities, competitive
+    landscape, and consumer behavior analysis into a cohesive strategic
+    plan. Include market positioning, pricing strategy, channel
+    partnerships, phased execution roadmap, and success metrics.
+
+    Focus on:
+    - Market entry strategy (phased approach: 6/12/24 months)
+    - Brand positioning for the Filipino market
+    - Pricing and promotional strategy
+    - Logistics and fulfillment approach
+    - Payment integration strategy
+    - Local partnership framework
+    - Marketing and acquisition channels
+    - KPI framework and success metrics
+    - Risk assessment and mitigation strategies
+  expected_output: >
+    A comprehensive strategic plan including market positioning, pricing
+    strategy, channel partnerships, and execution roadmap with phased
+    milestones. 1200-2000 words in clean markdown format with clear
+    section headers and actionable recommendations.
+  agent: strategist
+  output_file: output/04-strategy-development.md
+
+partnership_opportunities:
+  description: >
+    Research and evaluate strategic partnership opportunities for Amazon
+    Philippines expansion. Identify potential partners across logistics,
+    payments, marketing, local brands, and technology. Build a partnership
+    matrix with value assessment and prioritization.
+
+    Focus on:
+    - Last-mile delivery partners (LBC, 2GO, Ninja Van, Flash Express, etc.)
+    - Digital payment partners (GCash, Maya, PayMongo, etc.)
+    - Strategic marketing and brand partners
+    - Local supplier and manufacturer partnerships
+    - Technology and platform integration partners
+    - Government and regulatory partners
+    - Each partner assessment: value, risk, exclusivity potential
+    - Negotiation strategy recommendations
+  expected_output: >
+    A partnership matrix with potential partners, collaboration models,
+    negotiation strategies, and prioritization framework. Include at
+    least 10-15 potential partners evaluated across multiple dimensions.
+    1000-1500 words in clean markdown format.
+  agent: partnership_specialist
+  output_file: output/05-partnership-opportunities.md
+
+# ── Phase 3: Design & Content Integration ───────────────────────────────
+
+ux_ui_design:
+  description: >
+    Design the Amazon PH e-commerce interface experience. Create design
+    recommendations for a culturally-relevant, mobile-first shopping
+    experience for Filipino consumers. Include information architecture,
+    key user flows, visual design principles, and accessibility
+    considerations.
+
+    Focus on:
+    - Mobile-first information architecture for PH users
+    - Key user flows: discovery, product page, cart, checkout, payment
+    - Visual design principles for the Filipino market (color, typography, imagery)
+    - Low-bandwidth optimization strategies
+    - Trust signals and security indicators
+    - Localized UI patterns (payment preferences, sizing, language toggle)
+    - Accessibility and inclusive design considerations
+    - Social commerce integration (sharing, reviews, ratings)
+  expected_output: >
+    UX/UI design recommendations with information architecture,
+    wireframe descriptions, key user flows, visual design guidelines,
+    and accessibility considerations. 800-1200 words in clean markdown
+    format with design system recommendations.
+  agent: ux_ui_designer
+  output_file: output/06-ux-ui-design.md
+
+content_strategy:
+  description: >
+    Develop a comprehensive content marketing strategy for Amazon
+    Philippines. Create a 6-month editorial calendar, content pillar
+    framework, KPI definitions, and distribution strategy tailored
+    to the Filipino market.
+
+    Focus on:
+    - Content pillar framework (4-5 core content themes)
+    - 6-month editorial calendar with monthly themes
+    - Content types: blog, video, social, email, SMS
+    - Tone of voice guidelines (Taglish integration)
+    - SEO keyword strategy for PH market
+    - Social media content strategy (Facebook, TikTok, Instagram)
+    - Email and SMS marketing cadence
+    - Content performance KPIs and measurement
+    - Budget and resource requirements
+  expected_output: >
+    A comprehensive content marketing strategy with 6-month editorial
+    calendar, content pillar framework, KPI definitions, and channel-
+    specific distribution strategies. 1000-1500 words in clean markdown
+    format.
+  agent: content_creator
+  output_file: output/07-content-strategy.md
+
+# ── Phase 4: Execution & SEO ────────────────────────────────────────────
+
+marketing_copy:
+  description: >
+    Write conversion-focused marketing copy for Amazon PH across multiple
+    channels. Create copy for the landing page, product pages, email
+    campaigns, social media ads, and SMS marketing that resonates with
+    Filipino consumers.
+
+    Focus on:
+    - Homepage hero copy and value proposition
+    - Product page copywriting templates (3-5 key categories)
+    - Email welcome sequence (3 emails)
+    - Facebook ad copy (3 variations for different segments)
+    - SMS marketing copy (5 templates)
+    - Social media post copy (5 posts for launch phase)
+    - Taglish integration for authenticity
+    - Trust signals and social proof phrasing
+    - Call-to-action optimization for PH audience
+  expected_output: >
+    A comprehensive copy library with SEO optimization, tone consistency,
+    and conversion readiness across all channels. Include templates that
+    can be adapted for ongoing use. 1000-1500 words in clean markdown
+    format.
+  agent: marketing_copywriter
+  output_file: output/08-marketing-copy.md
+
+seo_optimization:
+  description: >
+    Implement comprehensive SEO strategy for Amazon Philippines market.
+    Develop keyword strategy, on-page optimization recommendations,
+    technical SEO checklist, and link-building approach tailored to the
+    Philippine search landscape.
+
+    Focus on:
+    - Keyword research: 50+ targeted keywords (English and Tagalog)
+    - On-page SEO recommendations for e-commerce pages
+    - Technical SEO checklist for mobile-first indexing
+    - Local SEO optimization strategies
+    - Content optimization for search intent
+    - Link building and digital PR strategy for PH market
+    - Google Shopping and product feed optimization
+    - Voice search optimization for Filipino users
+    - SEO monitoring and reporting framework
+  expected_output: >
+    A comprehensive SEO strategy with 50+ targeted keywords,
+    on-page optimization recommendations, technical SEO checklist,
+    local SEO tactics, and monitoring framework. 1000-1500 words
+    in clean markdown format.
+  agent: seo_specialist
+  output_file: output/09-seo-optimization.md

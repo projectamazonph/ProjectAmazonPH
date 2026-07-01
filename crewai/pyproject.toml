@@ -1,0 +1,16 @@
+[project]
+name = "amazon-ph-crew"
+version = "1.0.0"
+description = "Amazon Philippines multi-agent CrewAI system for market analysis, strategy, and execution"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai[tools]>=0.108.0,<1",
+    "pydantic>=2.0.0,<3",
+]
+
+[project.scripts]
+run = "amazon_ph_crew.main:run"
+plot = "amazon_ph_crew.main:plot"
+
+[tool.crewai]
+type = "flow"
