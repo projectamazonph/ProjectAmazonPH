@@ -115,5 +115,3 @@ Agent tools marked **Proprietary** are for personal use or licensed separately.
 ---
 
 *Building systems that make great PPC managers, not just people who know PPC.*
-
----
