@@ -1,7 +1,8 @@
 # ProjectAmazonPH — Marketing Strategy
 
-**Version:** 1.0  
-**Date:** June 25, 2026  
+**Version:** 1.1  
+**Date:** 2026-08-21 (refresh)  
+**Originally authored:** June 25, 2026  
 **Objective:** Grow from current landing page to systematic client acquisition engine.
 
 ---
@@ -20,7 +21,7 @@
 - ✅ Two blog posts drafted (journey + technical)
 - ✅ Facebook Page — Upskill Pilipinas (@projectamazonph)
 - ✅ Facebook Group — Project Amazon.PH (3158233264458437)
-- ✅ LinkedIn — Ryan Roland Dabao (1.8k followers, 500+ connections)
+- ✅ LinkedIn — Ryan Roland Dabao (1.8k followers as of 2026-06-25 — verify current count)
 - ✅ YouTube — @RyanRolandDabao (channel exists, needs content)
 
 ### What's Missing

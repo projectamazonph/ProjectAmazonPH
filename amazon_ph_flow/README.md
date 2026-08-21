@@ -1,6 +1,25 @@
-# {{crew_name}} Crew
+# amazon-ph-flow Crew
 
-Welcome to the {{crew_name}} Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+> **Last updated:** 2026-08-21
+
+The `amazon-ph-flow` Crew is a multi-agent research workflow built on [crewAI](https://crewai.com). It produces the 8-output Amazon PPC market research captured in `output/01-market-opportunities.md` through `output/08-marketing-copy.md`.
+
+## What it does
+
+The flow runs 8 research tasks in sequence, each producing a markdown output:
+
+| # | Output | Purpose |
+|---|--------|---------|
+| 01 | [Market Opportunities](./output/01-market-opportunities.md) | PH Amazon PPC training market sizing |
+| 02 | [Competitive Landscape](./output/02-competitive-landscape.md) | Competitor analysis |
+| 03 | [Consumer Behavior](./output/03-consumer-behavior.md) | VA / career-shifter personas |
+| 04 | [Strategy Development](./output/04-strategy-development.md) | Channel + content strategy |
+| 05 | [Partnership Opportunities](./output/05-partnership-opportunities.md) | VA agencies, Amazon seller communities |
+| 06 | [UX/UI Design](./output/06-ux-ui-design.md) | Landing page + funnel design notes |
+| 07 | [Content Strategy](./output/07-content-strategy.md) | 12-week content calendar skeleton |
+| 08 | [Marketing Copy](./output/08-marketing-copy.md) | Tagline + ad copy variants |
+
+The outputs feed directly into `MASTER-PLAN.md`, `marketing/MARKETING-STRATEGY.md`, `seo/SEO-PLAN.md`, and `content-calendar/CONTENT-CALENDAR.md`.
 
 ## Installation
 
@@ -14,15 +33,13 @@ pip install uv
 
 Next, navigate to your project directory and install the dependencies:
 
-(Optional) Lock the dependencies and install them by using the CLI command:
 ```bash
 crewai install
 ```
 
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
+- Add your `OPENAI_API_KEY` to `.env` (already in `.gitignore`)
 - Modify `src/amazon_ph_flow/config/agents.yaml` to define your agents
 - Modify `src/amazon_ph_flow/config/tasks.yaml` to define your tasks
 - Modify `src/amazon_ph_flow/crew.py` to add your own logic, tools and specific args
@@ -30,27 +47,21 @@ crewai install
 
 ## Running the Project
 
-To kickstart your flow and begin execution, run this from the root folder of your project:
+From the project root:
 
 ```bash
 crewai run
 ```
 
-This command initializes the amazon-ph-flow Flow as defined in your configuration.
+This command initializes the `amazon-ph-flow` Flow as defined in your configuration and writes outputs to `output/`.
 
-This example, unmodified, will run a content creation flow on AI Agents and save the output to `output/post.md`.
+## Maintenance Notes
 
-## Understanding Your Crew
-
-The amazon-ph-flow Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+- The 8 outputs in `output/` are **frozen snapshots** from the original run. Re-running the flow will overwrite them — archive before re-running if you need to preserve history.
+- The original CrewAI template used `{{crew_name}}` placeholders that were never filled in; the canonical crew name is `amazon-ph-flow` (used throughout the codebase and outputs).
 
 ## Support
 
-For support, questions, or feedback regarding the {{crew_name}} Crew or crewAI.
-
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+- crewAI documentation: https://docs.crewai.com
+- crewAI GitHub: https://github.com/joaomdmoura/crewai
+- Project Amazon PH docs: see [`../AGENTS.md`](../AGENTS.md) and [`../docs/`](../docs/)

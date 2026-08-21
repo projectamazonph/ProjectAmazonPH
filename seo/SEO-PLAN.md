@@ -1,6 +1,8 @@
 # ProjectAmazonPH — SEO Plan
 
-**Date:** June 25, 2026  
+**Version:** 1.1  
+**Date:** 2026-08-21 (refresh)  
+**Originally authored:** June 25, 2026  
 **Goal:** Rank for high-intent Amazon PPC training keywords in the Philippines.
 
 ---
@@ -84,7 +86,7 @@ projectamazonph.com/
 ├── / (landing page)
 ├── /blog/
 │   ├── /blog/what-is-amazon-ppc/
-│   ├── /blog/amazon-ppc-specialary-salary-philippines/
+│   ├── /blog/amazon-ppc-specialist-salary-philippines/
 │   ├── /blog/how-to-become-amazon-pva/
 │   └── /blog/[post-slug]/
 ├── /tools/

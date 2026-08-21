@@ -2,6 +2,8 @@
 
 ### Amazon PPC Lead Manager building campaign systems, training simulators, and AI tools for Filipino VAs and eCommerce teams.
 
+> **Last refreshed:** 2026-08-21 · AMPH Academy v2 is live · amph-v2-greenfield in production hardening
+
 ---
 
 ## 🎯 Who I Help
@@ -84,12 +86,16 @@ Agent frameworks and workflow automation for eCommerce operations and content pr
 
 ## 📈 Current Build
 
-Currently building **amph-v2-greenfield** — a ground-up rebuild of the AMPH Academy training ecosystem with a clean five-layer architecture. The repo is in active production hardening (260+ PRs, 23k+ commits). **AMPH Academy v2** stays live as the current student-facing platform.
+**AMPH Academy v2** is the live student-facing platform — 8 modules, 31 MDX lessons, campaign simulators, gamification, and certificate generation. Greenfield rebuild of the training ecosystem (**amph-v2-greenfield**) is in production hardening on a five-layer architecture (domain → ports → usecases → infra → app) with error boundaries and ISR caching.
 
-**Now:**
-- [x] Profile README
+**Now (updated 2026-08-21):**
+- [x] Profile README refresh
+- [x] AMPH Academy v2 — live (8 modules, 31 lessons, simulators, gamification)
 - [x] amph-v2-greenfield core implementation & hardening
-- [ ] projectamazonph.online domain renewal & deployment
+- [ ] projectamazonph.online domain renewal & deployment *(stale — confirm current status)*
+- [ ] Interview Lab UI fix plan execution
+- [ ] August content calendar execution
+- [ ] GA4 + Google Search Console verification on production
 
 ---
 
@@ -97,7 +103,7 @@ Currently building **amph-v2-greenfield** — a ground-up rebuild of the AMPH Ac
 
 | Platform | Link |
 |----------|------|
-| **Website** | projectamazonph.online *(domain pending renewal)* |
+| **Website** | projectamazonph.online *(domain pending renewal — verify Aug 2026 status)* |
 | **LinkedIn** | [ph.linkedin.com/in/ryandabao](https://ph.linkedin.com/in/ryandabao) |
 | **YouTube** | [@RyanRolandDabao](https://youtube.com/@RyanRolandDabao) |
 | **Facebook Page** | [Upskill Pilipinas — @projectamazonph](https://facebook.com/projectamazonph) |

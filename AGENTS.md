@@ -7,6 +7,7 @@
 | Field | Value |
 |-------|-------|
 | **Owner** | Ryan Roland Dabao |
+| **Experience** | 14-year VA industry veteran · 8-year Amazon PPC specialist · ₱50M+ managed ad spend |
 | **Business** | Amazon PPC coaching (₱2,999 / ₱5,999 / ₱9,999 tiers) |
 | **Social** | FB @projectamazonph · YT @RyanRolandDabao · LI @ryandabao |
 | **FB Group** | fb.com/groups/3158233264458437 ("Project Amazon.PH") |
@@ -17,16 +18,22 @@
 
 ```
 ProjectAmazonPH/
-├── amazon_ph_flow/        ← CrewAI workflow reference (AGENTS.md contains CrewAI API docs)
-├── assets/                ← Graphics, images, media
-├── brand-kit/             ← Brand guidelines, logos, colors, voice
-├── content-calendar/      ← Social media content scheduling
-├── crewai/                ← Multi-agent AI workflows
-├── marketing/             ← Marketing collateral, ad copy, funnels
-├── seo/                   ← SEO research and strategy
-├── tool-audit/            ← Tool evaluations
+├── amazon_ph_flow/        ← CrewAI workflow reference (8 research outputs, see amazon_ph_flow/README.md)
+├── brand-kit/             ← Brand guidelines, logos, colors, voice (BRAND-KIT.md)
+├── content-calendar/      ← Social media content scheduling (CONTENT-CALENDAR.md)
+├── crewai/                ← Multi-agent AI workflow templates
+├── docs/                  ← architecture.md + decisions.md (ADRs)
+├── marketing/             ← Marketing collateral, ad copy, funnels (MARKETING-STRATEGY.md)
+├── seo/                   ← SEO research and strategy (SEO-PLAN.md)
+├── tool-audit/            ← Tool evaluations (TOOL-AUDIT.md)
 ├── facebook-content-engine.md  ← FB posting strategy (Page 9AM, Group 6PM daily)
-└── MASTER-PLAN.md         ← Overall business strategy
+├── README.md              ← Public profile (Lane 1 + Lane 2 portfolio)
+├── PRD.md                 ← Product requirements (AMPH Academy = primary)
+├── DEV-PLAN.md            ← 6-phase development plan
+├── MASTER-PLAN.md         ← Overall campaign strategy
+├── WORKLOG.md             ← Session log
+├── AGENTS.md              ← This file
+├── TODO.md / KANBAN.md    ← Task tracking (see GitHub Issues)
 ```
 
 ## Content Engine
@@ -64,13 +71,29 @@ ProjectAmazonPH/
 
 | File | Purpose |
 |------|---------|
+| `README.md` | Public profile (Lane 1 PPC + Lane 2 AI Systems) |
+| `PRD.md` | Product requirements — AMPH Academy is the live platform |
+| `DEV-PLAN.md` | 6-phase development plan (phases 1-4 ✅, 5-6 active) |
+| `MASTER-PLAN.md` | Overall campaign strategy (current phase: 3) |
 | `facebook-content-engine.md` | Social media posting strategy (Page + Group) |
-| `MASTER-PLAN.md` | Overall business strategy and roadmap |
-| `brand-kit/` | Visual identity, logos, brand guidelines |
-| `content-calendar/` | Scheduled posts and campaigns |
-| `seo/` | SEO keyword research and strategy |
+| `brand-kit/BRAND-KIT.md` | Visual identity, logos, brand guidelines |
+| `content-calendar/CONTENT-CALENDAR.md` | Scheduled posts and campaigns |
+| `seo/SEO-PLAN.md` | SEO keyword research and strategy |
+| `marketing/MARKETING-STRATEGY.md` | Funnel, channels, KPIs |
+| `docs/architecture.md` | Brand, content, funnel architecture |
+| `docs/decisions.md` | Architecture Decision Records (ADRs) |
+| `tool-audit/TOOL-AUDIT.md` | Tool inventory and gaps |
 | `amazon_ph_flow/AGENTS.md` | CrewAI technical reference (auto-generated) |
+| `amazon_ph_flow/README.md` | CrewAI flow usage (note: was template with `{{crew_name}}` placeholder — fixed) |
+
+### Related Repos (live, in this org)
+
+- **[amph-v2](https://github.com/projectamazonph/amph-v2)** — AMPH Academy v2 (live student platform)
+- **[amph-v2-greenfield](https://github.com/projectamazonph/amph-v2-greenfield)** — Greenfield rebuild (production hardening)
+- **[Interview-lab](https://github.com/projectamazonph/Interview-lab)** — AI-powered interview practice
+- **[ppc-tools-for-va](https://github.com/projectamazonph/ppc-tools-for-va)** — Free browser-based tools
+- **[Amazon-PPC-Student-Wiki](https://github.com/projectamazonph/Amazon-PPC-Student-Wiki)** — Community knowledge base
 
 ---
 
-*Updated: 2026-07-02 | Part of Ryan's Hermes Agent workspace*
+*Last refreshed: 2026-08-21 | Part of Ryan's Hermes Agent workspace*

@@ -1,5 +1,13 @@
 # 🪖 Interview Lab — UI Production Fix Plan
 
+> **Note (2026-08-21):** This file is a UI production fix plan for the `Interview-lab` app. It belongs in the [Interview-lab repo](https://github.com/projectamazonph/Interview-lab) as `docs/ui-fix-plan.md`, not in the org profile repo. Keeping it here as a redirect pointer for the Aug 2026 docs refresh.
+>
+> **Action item:** Move this file to `projectamazonph/Interview-lab/docs/ui-fix-plan.md` in a follow-up PR.
+
+---
+
+# 🪖 Interview Lab — UI Production Fix Plan
+
 **Issue:** Overlapping/overflowing text inside text boxes and cards.
 **Root Cause:** Two design systems fighting each other:
 1. **Glass design system** (custom: GlassCard, GlassButton, GlassInput) — uses `rounded-[2rem]`, `backdrop-blur-xl`, `bg-glass/80`, glass borders
