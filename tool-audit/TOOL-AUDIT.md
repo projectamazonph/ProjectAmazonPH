@@ -1,30 +1,25 @@
 # ProjectAmazonPH — Tool Audit
 
-**Date:** June 25, 2026  
+**Version:** 1.1  
+**Date:** 2026-08-21 (refresh)  
+**Originally authored:** June 25, 2026  
 **Purpose:** Inventory existing tools, identify gaps, map what's needed for marketing/SEO/content.
 
 ---
 
 ## 1. Existing Assets (What You Have)
 
-### PPC Companion (Next.js App)
-**Path:** `/storage/emulated/0/Hermes Projects/ppc-companion/`  
-**Status:** Phase 5 complete, production-ready  
-**Features:**
-- 8-12 week curriculum delivery
-- Auto-graded quizzes
-- Interactive exercises
-- Student progress tracking
-- Cohort management
-- Admin dashboard
-- JWT auth, CSRF, rate limiting
-- 121 source files, 1,778-line course-data.ts
+### AMPH Academy (formerly PPC Companion) — Next.js App
+**Repo:** https://github.com/projectamazonph/amph-v2
+**Status:** ✅ Live (PRD v2.1, 2026-08-21) — 8 modules, 31 MDX lessons, 17 badges, certificate generation
+**Architecture:** Next.js 16, Prisma 7, SQLite, JWT auth (jose, HttpOnly cookies), Tailwind, shadcn/ui, Framer Motion, Zustand
+**Deployment:** Vercel — amph-academy.vercel.app
 
-**Marketing Use:** Core delivery platform. Can replace PDF-based training with interactive experience. Premium positioning vs competitors.
+**Marketing Use:** Core delivery platform. Replaces PDF-based training with interactive experience. Premium positioning vs competitors.
 
 ### Interview Lab (Next.js App)
-**Path:** `/storage/emulated/0/Hermes Projects/Interview-lab/`  
-**Status:** Deployed on Vercel  
+**Repo:** https://github.com/projectamazonph/Interview-lab
+**Status:** ✅ Deployed on Vercel
 **Features:**
 - AI-powered mock interviews (Puter.js)
 - Resume coaching
@@ -35,7 +30,7 @@
 **Marketing Use:** Lead magnet (free tier) + upsell to paid coaching. Email capture vehicle.
 
 ### Downloadable Assets (26 Files)
-**Path:** `/storage/emulated/0/Hermes Projects/Interview-lab/public/downloads/`
+**Path:** `Interview-lab/public/downloads/` (in the Interview-lab repo)
 
 | Asset | Type | Marketing Use |
 |-------|------|---------------|
@@ -65,26 +60,27 @@
 
 **Marketing Use:** Lead magnets (email capture), content upgrades (blog post bonuses), free tools (SEO + trust).
 
-### Adcraft Academy (Curriculum Content)
-**Path:** `/storage/emulated/0/Hermes Projects/Adcraft-Academy/`  
-**Status:** Curriculum written (7+ modules)  
+### AMPH Academy Curriculum (Adcraft Academy — now AMPH Academy v2)
+**Repo:** https://github.com/projectamazonph/amph-v2  
+**Status:** ✅ Live with 8 modules, 31 MDX lessons  
 **Modules:**
 - 0-onboarding (3 lessons)
 - 1-foundations (5 lessons)
+- 2-keyword-research (4 lessons)
+- 3-listing-optimization (3 lessons)
 - 4-campaign-architecture (4 lessons)
+- 5-portfolio-strategy (3 lessons)
 - 6-bidding-lab (3 lessons)
 - 7-search-term-triage (3 lessons)
+- 8-competitive-intelligence (3 lessons)
 
-**Marketing Use:** Blog content source, YouTube script source, course material for PPC Companion.
+**Marketing Use:** Blog content source, YouTube script source, course material.
 
 ### Two Blog Posts (Drafted)
-**Path:** `/storage/emulated/0/Hermes Projects/blog-hermes-journey.md`  
-**Path:** `/storage/emulated/0/Hermes Projects/blog-hermes-technical.md`  
-**Status:** Written, not published  
+**Status:** Verify if published — these were first drafts from June 2026
 **Marketing Use:** Publish as first blog posts. Journey post = trust building. Technical post = authority.
 
 ### Second Brain (Knowledge Base)
-**Path:** `/root/storage/Documents/SecondBrain/`  
 **Content:** Amazon PPC fundamentals, ADCP protocol, MCP server landscape, workflow patterns  
 **Marketing Use:** Content source, research foundation, industry expertise proof.
 
@@ -168,7 +164,7 @@
 ## 4. Existing Tool → Marketing Map
 
 ```
-PPC Companion ──────→ Course delivery platform (premium positioning)
+AMPH Academy ────────→ Course delivery platform (premium positioning)
                        └─→ Interactive learning vs PDF competitors
 
 Interview Lab ───────→ Lead magnet (free tier)
@@ -178,7 +174,7 @@ Interview Lab ───────→ Lead magnet (free tier)
                        └─→ Content upgrades (blog bonuses)
                        └─→ Free tools (SEO + trust)
 
-Adcraft Content ─────→ Blog posts (source material)
+AMPH Academy Content ─→ Blog posts (source material)
                        └─→ YouTube scripts
                        └─→ Course material
 

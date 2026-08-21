@@ -1,9 +1,10 @@
 # 🪖 ProjectAmazonPH — Master Campaign Plan
 
 **Mission:** Establish ProjectAmazonPH as the #1 Amazon PPC training brand for Filipino VAs.
-**Commander:** Coach / Ryan Roland Dabao — 14yr VA industry, 6yr PPC specialist, ₱50M+ managed ad spend
+**Commander:** Coach / Ryan Roland Dabao — 14yr VA industry, 8yr PPC specialist, ₱50M+ managed ad spend
 **Start Date:** June 26, 2026
-**Status:** Phase 0 Complete — Recon gathered. All asset inventory done.
+**Last Refreshed:** 2026-08-21
+**Current Phase:** Phase 3 (Scale) — Weeks 9-12 (Aug 21 - Sep 20)
 
 ---
 
@@ -59,60 +60,42 @@
 
 ## 3. Campaign Phases
 
-### Phase 0: Recon & Setup ← YOU ARE HERE
-**Duration:** Week 1 (June 26 - July 2)
+### Phase 0: Recon & Setup
+**Duration:** Week 1 (June 26 - July 2) — ✅ COMPLETE
 
-| Task | Owner | Est. Time | Status |
-|------|-------|-----------|--------|
-| Register projectamazonph.com | Ryan | 15 min | ⬜ Pending |
-| Point domain to Netlify | Ryan/Vex | 15 min | ⬜ Pending |
-| Set up email marketing (Mailchimp) | Ryan/Vex | 30 min | ⬜ Pending |
-| Install GA4 + Search Console | Vex | 20 min | ⬜ Pending |
-| Create first lead magnet from existing assets | Vex | 1 hr | ⬜ Pending |
-| Set up payment (PayPal.me) | Ryan | 10 min | ⬜ Pending |
-| Fix favicon + metadata on landing page | Vex | 30 min | ⬜ Pending |
-| Interview students for real testimonials | Ryan | 2 hrs | ⬜ Pending |
+Recon phase done on schedule. All asset inventory captured. Master/brand/PR/SEO/marketing docs created.
 
-**Deliverable:** Fully operational website with email capture, analytics, and payments.
+**Outstanding from Phase 0** (carried forward):
+- ⬜ Register projectamazonph.com *(verify 2026-08-21 status — README still shows pending)*
+- ⬜ Email marketing setup
+- ⬜ GA4 + Search Console install on production
+- ⬜ Real student testimonials (PRD shows 2 named — Maria, Carlos)
 
 ---
 
 ### Phase 1: Content Engine
-**Duration:** Weeks 2-5 (July 3 - July 30)
+**Duration:** Weeks 2-5 (July 3 - July 30) — 🟡 PARTIAL
 
-| Week | Blog Post | YouTube | TikTok/Reels | Email |
-|------|-----------|---------|-------------|-------|
-| 1 | What is Amazon PPC? (Pillar) | PPC Explained in 5 Min | 3 clips | Welcome Sequence |
-| 2 | PPC Salary PH (Data) | Day in the Life | 3 clips | Value Email |
-| 3 | How to Become PPC Specialist (Guide) | Live Campaign Audit | 3 clips | Social Proof |
-| 4 | PPC vs General VA (Comparison) | Starting From Zero | 3 clips | Urgency |
-
-**Deliverable:** 4 blog posts, 4 YouTube videos, 12 TikTok/Reels, email sequence live.
+Calendar was authored in `content-calendar/CONTENT-CALENDAR.md`. Execution status not tracked in this repo — needs audit against actual posts published.
 
 ---
 
 ### Phase 2: Community
-**Duration:** Weeks 6-8 (July 31 - August 20)
+**Duration:** Weeks 6-8 (July 31 - August 20) — 🟡 PARTIAL
 
-- Activate Facebook Group with daily content
-- Host first live Q&A (weekly recurring)
-- Student spotlight posts
-- Referral system launch
-- First email newsletter to subscriber list
-
-**Deliverable:** 200+ group members, weekly engagement, 10+ referrals.
+FB Group exists (`fb.com/groups/3158233264458437`). Live Q&A cadence, spotlight posts, referral system, and email newsletter — verify actual execution.
 
 ---
 
-### Phase 3: Scale
+### Phase 3: Scale ← YOU ARE HERE
 **Duration:** Weeks 9-12 (August 21 - September 20)
 
-- Facebook ads (retargeting + lookalikes)
-- Google ads (search + display)
-- PPC Companion goes live as premium delivery platform
-- Guest posts on Filipino VA blogs
-- Partnership with VA agencies
-- 12+ blog posts indexed (SEO compounding begins)
+- [ ] Facebook ads (retargeting + lookalikes) — status: not yet launched
+- [ ] Google ads (search + display) — status: not yet launched
+- [x] AMPH Academy goes live as premium delivery platform *(8 modules, 31 lessons live per PRD v2.1)*
+- [ ] Guest posts on Filipino VA blogs
+- [ ] Partnership with VA agencies
+- [ ] 12+ blog posts indexed (SEO compounding begins)
 
 **Deliverable:** 500+ email subscribers, 30+ enrollments/month, ₱200k+ monthly revenue.
 

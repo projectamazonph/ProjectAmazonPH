@@ -1,6 +1,6 @@
 # Architecture — ProjectAmazonPH
 
-**Version:** 1.0 | **Updated:** 2026-07-02
+**Version:** 1.1 | **Updated:** 2026-08-21 (refresh)
 
 ---
 
@@ -14,9 +14,9 @@ ProjectAmazonPH
 │   └── Promise: "From Zero to ₱80k+/Month"
 │
 ├── Products
-│   ├── PPC Foundations (₱2,999) — Self-paced
-│   ├── Accelerated Mastery (₱5,999) — 60-day coaching
-│   └── Ultimate Transformation (₱9,999) — 1-on-1 mentorship
+│   ├── PPC Foundations (₱2,999) — Self-paced ✅ Live
+│   ├── Accelerated Mastery (₱5,999) — 60-day coaching ✅ Live
+│   └── Ultimate Transformation (₱9,999) — 1-on-1 mentorship ✅ Live
 │
 ├── Distribution Channels
 │   ├── Facebook — Page (Upskill Pilipinas) + Group (Project Amazon.PH)
@@ -24,10 +24,12 @@ ProjectAmazonPH
 │   ├── LinkedIn — ph.linkedin.com/in/ryandabao
 │   └── Website — projectamazonph-courses.netlify.app
 │
-└── Platform (via PPC Companion)
-    ├── Student Portal
-    ├── Course Delivery (LMS)
-    └── Community Features
+└── Platform (AMPH Academy v2)
+    ├── Student Portal ✅ Live
+    ├── Course Delivery — 8 modules, 31 MDX lessons ✅ Live
+    ├── Gamification — 17 badges, XP, streaks, leaderboard ✅ Live
+    ├── Certificate generation ✅ Live
+    └── Community Features ⏳ Planned
 ```
 
 ---
@@ -132,7 +134,7 @@ Action
 | Social Media Management | Meta Business Suite |
 | Content Creation | Canva, CapCut |
 | Landing Pages | Netlify |
-| Course Platform | PPC Companion (custom Next.js app) |
+| Course Platform | AMPH Academy v2 (custom Next.js 16 app — amph-academy.vercel.app) |
 | Email Marketing | Planned (ConvertKit/MailerLite) |
 | Payment Processing | Planned (GCash/PayMaya/Stripe) |
 | Analytics | Google Analytics, Meta Pixel |

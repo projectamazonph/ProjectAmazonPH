@@ -1,6 +1,6 @@
 # PRD — ProjectAmazonPH
 
-**Version:** 2.0 | **Status:** Approved | **Last Updated:** 2026-07-09
+**Version:** 2.1 | **Status:** Approved | **Last Updated:** 2026-08-21
 
 ---
 

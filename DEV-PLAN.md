@@ -1,6 +1,6 @@
 # Development Plan — ProjectAmazonPH
 
-**Version:** 1.0 | **Status:** Active | **Last Updated:** 2026-07-02
+**Version:** 1.1 | **Status:** Active | **Last Updated:** 2026-08-21
 
 ---
 
@@ -79,38 +79,44 @@
 
 ## Phase 5: Course Platform Development
 
-**Status:** 📋 PLANNED
+**Status:** 🟢 LIKELY COMPLETE — verify against PRD.md
 
-| Task | Details | Priority |
-|------|---------|----------|
-| PPC Companion integration | Student portal for course access | High |
-| Interactive exercises | Real PPC scenarios | High |
-| Quiz system | Knowledge checks per module | Medium |
-| Progress tracking | Student dashboard | Medium |
-| Community platform | Forums, discussions | Medium |
-| Job board | Employer connections for graduates | Low |
+| Task | Details | Priority | Status |
+|------|---------|----------|--------|
+| AMPH Academy integration | Live platform — 8 modules, 31 MDX lessons | High | ✅ Live |
+| Interactive exercises | Campaign Builder, Bid Elevator, STR Triage | High | ✅ Live |
+| Quiz / gamification | 17 badges, XP, streaks, leaderboard | Medium | ✅ Live |
+| Progress tracking | 11-tab student dashboard | Medium | ✅ Live |
+| Admin dashboard | User, course, badge, settings management | Medium | ✅ Live |
+| Live Classes | Admin CRUD, student registration, scheduling | Medium | ✅ Live |
+| Certificate generation | Verifiable credentials | High | ✅ Live |
+| Community platform | Forums, discussions | Medium | ⏳ Pending |
+| Job board | Employer connections for graduates | Low | ⏳ Pending |
+
+> **Note:** This phase was marked PLANNED on 2026-07-02, but PRD v2.1 (2026-08-21) reports the AMPH Academy platform as Live with all core features shipped. Recommend merging verified status back into this doc.
 
 ---
 
 ## Phase 6: Scale & Expansion
 
-**Status:** 📋 PLANNED
+**Status:** 🟡 ACTIVE / PARTIAL
 
-| Task | Priority |
-|------|----------|
-| Advanced course tiers (Agency track, Team Lead track) | Medium |
-| English Taglish localization | Low |
-| Mobile app for course access | Low |
-| Corporate training packages | Medium |
-| Affiliate program for alumni | High |
-| Franchise/license model for other coaches | Low |
+| Task | Priority | Status |
+|------|----------|--------|
+| Advanced course tiers (Agency track, Team Lead track) | Medium | 🔵 Design |
+| amph-v2-greenfield rebuild (next-gen architecture) | High | 🟡 Production hardening |
+| English Taglish localization | Low | ⏳ Pending |
+| Mobile app for course access | Low | ⏳ Pending |
+| Corporate training packages | Medium | ⏳ Pending |
+| Affiliate program for alumni | High | ⏳ Pending |
+| Franchise/license model for other coaches | Low | ⏳ Pending |
 
 ---
 
 ## Open Questions
 
-1. **Platform:** Build custom LMS or use existing (Teachable, Thinkific)?
-2. **Payment processing:** GCash/PayMaya integration roadmap?
-3. **Content production:** Video production cadence for YouTube?
-4. **Community moderation:** Volunteer alumni mods or paid?
-5. **Pricing review:** Are tiers optimally priced for the market?
+1. **Platform:** ✅ Resolved — custom AMPH Academy (Next.js 16) instead of Teachable/Thinkific
+2. **Payment processing:** PayMongo + Resend integrated in amph-v2-greenfield; verify live status
+3. **Content production:** YouTube cadence still TBD — see content-calendar/
+4. **Community moderation:** Volunteer alumni mods vs paid — still open
+5. **Pricing review:** Tiers held at ₱2,999 / ₱5,999 / ₱9,999; revisit at 6-month mark

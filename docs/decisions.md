@@ -1,5 +1,7 @@
 # Architecture Decision Records — ProjectAmazonPH
 
+**Last updated:** 2026-08-21 (refresh — see `MASTER-PLAN.md` Phase 3 for current decision cadence)
+
 ---
 
 ## ADR-001: Orange + Navy Brand Colors
@@ -75,11 +77,12 @@
 
 **Context:** Off-the-shelf LMS platforms (Teachable, Thinkific) charge recurring fees and limit customization. Building on Next.js gives full control and integrates with existing PPC tools.
 
-**Decision:** Build custom training platform using Next.js 16 (PPC Companion project) instead of using existing LMS platforms.
+**Decision:** Build custom training platform using Next.js 16 (AMPH Academy v2 — `amph-academy.vercel.app`) instead of using existing LMS platforms.
 
 **Consequences:**
 - ✅ Full control over features and pricing
-- ✅ Integrated with PPC tools (Campaign Builder, etc.)
+- ✅ Integrated with PPC tools (Campaign Builder, Bid Elevator, STR Triage Arena)
 - ✅ No recurring platform fees
+- ✅ Live since 2026-Q2 with 8 modules, 31 lessons, 17 badges
 - ⚠️ Development time and maintenance cost
 - ⚠️ Must build features that exist out-of-the-box in LMS platforms

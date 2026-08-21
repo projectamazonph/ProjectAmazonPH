@@ -1,15 +1,15 @@
 # ProjectAmazonPH — Brand Kit
 
-**Version:** 1.1  
-**Last Updated:** June 26, 2026  
+**Version:** 1.2  
+**Last Updated:** 2026-08-21  
 **Owner:** Coach — Senior Amazon PPC Manager & Trainer  
-**Online Prescence:**
+**Online Presence:**
 - **Facebook Page:** Upskill Pilipinas — Freelancing Community (@projectamazonph)
 - **Facebook Group:** Project Amazon.PH (fb.com/groups/3158233264458437)
 - **LinkedIn:** Ryan Roland Dabao (ph.linkedin.com/in/ryandabao)
 - **YouTube:** @RyanRolandDabao (Project Amazon PH)
 - **Website:** projectamazonph-courses.netlify.app
-- **Custom Domain:** ❌ Not registered (P0)
+- **Custom Domain:** projectamazonph.online *(pending renewal — verify Aug 2026 status)*
 
 ---
 
@@ -99,14 +99,16 @@ For Filipino VAs earning ₱15k/month who want to break into ₱60-80k+ speciali
 
 ### Sub-Brands & Products
 
-| Product | Tier | Price | Brand Relation |
-|---------|------|-------|----------------|
-| **PPC Foundations** | Entry | ₱2,999 | Gateway — prove value |
-| **Accelerated Mastery** | Core | ₱5,999 | Flagship — main revenue |
-| **Ultimate Transformation** | Premium | ₱9,999 | Elite — highest LTV |
-| **PPC Companion** | Platform | TBD | Delivery vehicle (Next.js app) |
-| **Interview Lab** | Tool | Free/Paid | Lead magnet + upsell |
-| **Adcraft Academy** | Expansion | TBD | Broader advertising training |
+| Product | Tier | Price | Brand Relation | Status |
+|---------|------|-------|----------------|--------|
+| **PPC Foundations** | Entry | ₱2,999 | Gateway — prove value | ✅ Live |
+| **Accelerated Mastery** | Core | ₱5,999 | Flagship — main revenue | ✅ Live |
+| **Ultimate Transformation** | Premium | ₱9,999 | Elite — highest LTV | ✅ Live |
+| **AMPH Academy** | Platform | (in-product) | Delivery vehicle (Next.js 16) | ✅ Live — 8 modules, 31 lessons |
+| **amph-v2-greenfield** | Platform | n/a | Next-gen rebuild (5-layer architecture) | 🟡 Production hardening |
+| **Interview Lab** | Tool | Free/Paid | Lead magnet + upsell | ✅ Deployed |
+| **PPC Companion** | Tool | (in-product) | Interactive PPC tools | ✅ Built |
+| **ppc-tools-for-va** | Tool | Free | Open-source toolkit | ✅ Deployed |
 
 ### Bonus System (Value Stack)
 | Bonus | Value | Tier |
